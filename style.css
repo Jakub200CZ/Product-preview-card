@@ -1,0 +1,72 @@
+:root {
+    --vdb: hsl(212, 21%, 14%);
+    --dgb: hsl(228, 12%, 48%);
+    --w: hsl(0, 0%, 100%);
+    --dc: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+}
+
+* {
+    font-size: 14px;
+    font-family: "Montserrat", "Helvetica";
+}
+
+html {
+    background-color: var(--cream);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container div {
+    background-color: var(--w);
+    margin-top: 10rem;
+    height: 400px;
+    width: 280px;
+  }
+
+  .order {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .image {
+    height:400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .t1 {
+    color: var(--dgb);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 11px;
+  }
+
+  .title {
+    font-family: Fraunces;
+    font-size: 35px;
+  }
+
+  .desc {
+    color: var(--dgb);
+    line-height: 23px;
+  }
+
+  .sale {
+    color: var(--dc);
+    font-family: Fraunces;
+    font-size: 30px;
+  }
