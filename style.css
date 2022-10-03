@@ -71,6 +71,7 @@ html {
     padding-top: 2rem;
     color: var(--dgb);
     line-height: 23px;
+    padding-right: 3rem;
   }
 
   .price {
