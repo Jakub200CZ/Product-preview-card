@@ -36,18 +36,18 @@ html {
     
     background-color: var(--w);
     margin-top: 10rem;
-    height: 400px;
+    height: 430px;
     width: 280px;
   }
 
   .order {
-    padding-left: 1rem;
+    padding-left: 2rem;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
 
   .image {
-    height:400px;
+    height:430px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
@@ -74,16 +74,28 @@ html {
   }
 
   .price {
-    display: flex;
-    align-items: center;
+    padding-top: 1.5rem;
   }
 
   .sale {
+    padding-top: 2rem;
     color: var(--dc);
     font-family: Fraunces;
     font-size: 30px;
   }
 
-  .org-price {
+  .org_price {
+    padding-left: 15px;
+    color: var(--dgb);
+    text-decoration: line-through;
+  }
 
+  .add_card {
+    border-radius: 10px;
+    background-color: var(--dc);
+    color: var(--w);
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-right: 3rem;
+    padding: 1rem;
   }
