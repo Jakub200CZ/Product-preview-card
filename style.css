@@ -3,6 +3,7 @@
     --dgb: hsl(228, 12%, 48%);
     --w: hsl(0, 0%, 100%);
     --dc: hsl(158, 36%, 37%);
+    --dc-dark: hsl(158, 35%, 19%);
     --cream: hsl(30, 38%, 92%);
 }
 
@@ -33,11 +34,11 @@ html {
   }
 
   .container div {
-    
     background-color: var(--w);
     margin-top: 10rem;
-    height: 430px;
     width: 280px;
+    height: 430px;
+    filter: drop-shadow(6px 6px 20px hsla(228, 12%, 48%, 0.384));
   }
 
   .order {
@@ -99,4 +100,10 @@ html {
     margin-top: 1.5rem;
     margin-right: 3rem;
     padding: 1rem;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .add_card:hover {
+    background-color: var(--dc-dark);
   }
